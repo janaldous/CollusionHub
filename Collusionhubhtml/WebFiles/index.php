@@ -12,6 +12,7 @@ header("location: profile.php");
 <html>
 
 <head>
+<script src="https://apis.google.com/js/client:platform.js" async defer></script>
 
   <meta charset="UTF-8">
 
@@ -43,7 +44,7 @@ header("location: profile.php");
   </head>
 
   <body>
-  <div id="logo"></div>
+  
   <div class="container">
 
     <div id="login">
@@ -61,11 +62,27 @@ header("location: profile.php");
             <input id = "name" type="text" name="username" onBlur="if(this.value == '') this.value = 'Username'" onFocus="if(this.value == 'Username') this.value = ''" placeholder></p> <!-- JS because of IE support; better: placeholder="Username" -->
             <p align="center"><input id = "password" type="password"  name="password" onBlur="if(this.value == '') this.value = 'Password'" onFocus="if(this.value == 'Password') this.value = ''" required></p> <!-- JS because of IE support; better: placeholder="Password" -->
             <p align="center"><input name = "submit" type="submit" value="Login"></p>
+            
+            
 
           </fieldset>
         </form>
+        
+        
+        <span id="signinButton">
+  <span
+    class="g-signin"
+    data-callback="signinCallback"
+    data-clientid="262323722842-4u43sn7c7c8o4cckvlut4tstl92jl4hq.apps.googleusercontent.com"
+    data-cookiepolicy="single_host_origin"
+    data-requestvisibleactions="http://schema.org/AddAction"
+    data-scope="https://www.googleapis.com/auth/plus.login">
+  </span>
+</span>
+        
+        
 
-        <p align="center">Not a member? <a href="register.html">Sign up now</a><span class="fontawesome-arrow-right"></span></p>
+      <p align="center">Not a member? <a href="register.php">Sign up now</a><span class="fontawesome-arrow-right"></span></p>
 
     </div> <!-- end login -->
 
