@@ -1,4 +1,4 @@
-
+//creates a session
 <?php
 // Establishing Connection with Server by passing server_name, user_id and password as a parameter
 $connection = mysql_connect("mysql12.000webhost.com	", "a1331560_shubham ", "Increed123");
