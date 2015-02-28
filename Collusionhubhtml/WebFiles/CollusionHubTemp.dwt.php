@@ -1,17 +1,17 @@
 <!doctype html>
-<html><!-- InstanceBegin template="/Templates/CollusionHubTemp.dwt.php" codeOutsideHTMLIsLocked="false" -->
+<html>
 <head>
 <meta charset="UTF-8">
-<!-- InstanceBeginEditable name="doctitle" -->
+<!-- TemplateBeginEditable name="doctitle" -->
 <title>Untitled Document</title>
-<!-- InstanceEndEditable -->
+<!-- TemplateEndEditable -->
 <style type="text/css">
 body {
-	background-image: url(imeet-london-background.png);
+	background-image: url(../imeet-london-background.png);
 }
 </style>
-<!-- InstanceBeginEditable name="head" -->
-<!-- InstanceEndEditable -->
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
 <script type="text/javascript">
 function MM_swapImgRestore() { //v3.0
   var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
@@ -37,13 +37,13 @@ function MM_swapImage() { //v3.0
 </script>
 </head>
 
-<body onLoad="MM_preloadImages('MenuButtons/Home2.png','MenuButtons/Profile2.png','MenuButtons/tutors2.png','MenuButtons/events2.png','MenuButtons/sharing2.png','MenuButtons/L&amp;F2.png','../MenuButtons/logout2.png')">
+<body onLoad="MM_preloadImages('MenuButtons/Home2.png','MenuButtons/Profile2.png','MenuButtons/tutors2.png','MenuButtons/events2.png','MenuButtons/sharing2.png','MenuButtons/L&amp;F2.png','MenuButtons/logout2.png')">
 <div>
   <div align="center">
     <table width="899" border="0">
       <tbody>
         <tr>
-          <td width="255"><img src="logowithwomen.png" width="250" height="149" alt=""/></td>
+          <td width="255"><img src="../logowithwomen.png" width="250" height="149" alt=""/></td>
           <td width="634">&nbsp;</td>
         </tr>
       </tbody>
@@ -60,31 +60,23 @@ function MM_swapImage() { //v3.0
           <p><a href="TutorPage.php" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('TutorButton','','MenuButtons/tutors2.png',1)"><img src="MenuButtons/tutors.png" alt="" width="148" height="52" id="TutorButton"></a></p>
           <p><a href="EventPage.php" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('EventButton','','MenuButtons/events2.png',1)"><img src="MenuButtons/events.png" alt="" width="148" height="52" id="EventButton"></a></p>
           <p><a href="SharingIsCaring.php" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('SICButton','','MenuButtons/sharing2.png',1)"><img src="MenuButtons/sharing.png" alt="" width="148" height="52" id="SICButton"></a></p>
-          <p><a href="LostFoundPage.php" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('L&FButton','','MenuButtons/L&F2.png',1)"><img src="MenuButtons/L&F.png" alt="" width="148" height="52" id="L&amp;FButton"></a></p>
+          <p><a href="LostFoundPage.php" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('L&amp;FButton','','MenuButtons/L&amp;F2.png',1)"><img src="MenuButtons/L&F.png" alt="" width="148" height="52" id="L&amp;FButton"></a></p>
           <p><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('LogOutButton','','MenuButtons/logout2.png',1)"><img src="MenuButtons/logout.png" alt="" width="148" height="52" id="LogOutButton"></a></p></td>
           <td width="709"><table width="708" border="0">
             <tbody>
               <tr>
-                <td width="702"><!-- InstanceBeginEditable name="PublicFeed" -->
-                  <p>TuTorssssss!!!</p>
-                  <p>&nbsp;</p>
-                  <p>&nbsp;</p>
-                  <p>&nbsp;</p>
-                  <p>&nbsp;</p>
-                  <p>&nbsp;</p>
-                  <p>&nbsp;</p>
-                <!-- InstanceEndEditable --></td>
+                <td width="702"><!-- TemplateBeginEditable name="PublicFeed" -->PublicFeed<!-- TemplateEndEditable --></td>
               </tr>
               <tr>
                 <td>
-                  <!-- InstanceBeginEditable name="PrivateFeed" -->PrivateFeed<!-- InstanceEndEditable -->
+                  <!-- TemplateBeginEditable name="PrivateFeed" -->PrivateFeed<!-- TemplateEndEditable -->
               </tbody>
           </table></td>
-          <td width="121"><!-- InstanceBeginEditable name="WidgetPanel" -->WidgetPanel<!-- InstanceEndEditable --></td>
+          <td width="121"><!-- TemplateBeginEditable name="WidgetPanel" -->WidgetPanel<!-- TemplateEndEditable --></td>
         </tr>
       </tbody>
     </table>
     All right reserved by The A-Team </div>
 </div>
 </body>
-<!-- InstanceEnd --></html>
+</html>
