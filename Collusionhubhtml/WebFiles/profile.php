@@ -1,3 +1,8 @@
+<?php
+include('session.php');
+?>
+
+
 <!doctype html>
 <html><!-- InstanceBegin template="/Templates/CollusionHubTemp.dwt.php" codeOutsideHTMLIsLocked="false" -->
 <head>
