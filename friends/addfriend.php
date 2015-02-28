@@ -4,7 +4,8 @@
 	
 	// Define
 
-	$id = $_POST[id];
+	$username = $_SESSION['login_user'];
+	echo $_SESSION['login_user'];
 	$friend = $_POST[friend];
     $tutor = $_POST[tutor];
 	// Establishing Connection with Server by passing server_name, user_id and password as a parameter
@@ -12,7 +13,7 @@
 	// Selecting Database
 	$db = mysql_select_db("a1331560_account", $connection)  or die("2");
 	// SQL query to fetch information of registerd users and finds user match.
-	$insert_query = "INSERT INTO `a1331560_account`.`friendtutors` (`id`, `friends`, `tutors`) VALUES ('$id', '$friends', '$tutors')";
+	$insert_query = "INSERT INTO `a1331560_account`.`friendtutors` (`username`, `friends`, `tutors`) VALUES ('$username', 'asdf', '')";
 	mysql_query($insert_query, $connection) or die("3");
 	mysql_close($connection); // Closing Connection
 ?>
