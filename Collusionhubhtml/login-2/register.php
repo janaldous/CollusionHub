@@ -66,12 +66,12 @@ include("inserttodb.php");
               <input name = "username" type="text" value="Username" onBlur="if(this.value == '') this.value = 'Username'" onFocus="if(this.value == 'Username') this.value = ''" required>
             </p> 
             <!-- JS because of IE support; better: placeholder="Username" -->
-            <p align="center"><input type="password"  value="Password" onBlur="if(this.value == '') this.value = 'Password'" onFocus="if(this.value == 'Password') this.value = ''" required></p>
+            <p align="center"><input name = "password" type="password"  value="Password" onBlur="if(this.value == '') this.value = 'Password'" onFocus="if(this.value == 'Password') this.value = ''" required></p>
             <p align="center">
               <input name = "university" type="text" value="University" onBlur="if(this.value == '') this.value = 'University'" onFocus="if(this.value == 'University') this.value = ''" required>
             </p> 
             <!-- JS because of IE support; better: placeholder="Password" -->
-            <p align="center"><input type="submit" value="Sign Up"></p>
+            <p align="center"><input name= "submit" type="submit" value="Sign Up"></p>
 
           </fieldset>
 
