@@ -53,7 +53,7 @@ header("location: profile.php");
           <fieldset class="clearfix">
 
             <div align="center">
-              <p><img src="hacklogo.jpg" alt="" width="347" height="91" align="absmiddle"/><br>
+              <p><img src="../logowithwomen.png" alt="" width="300" height="179" align="absmiddle"/><br>
                 <br>
               </p>
             </div>
@@ -63,7 +63,6 @@ header("location: profile.php");
             <p align="center"><input name = "submit" type="submit" value="Login"></p>
 
           </fieldset>
-          <span><?php echo $error; ?></span>
         </form>
 
         <p align="center">Not a member? <a href="register.html">Sign up now</a><span class="fontawesome-arrow-right"></span></p>

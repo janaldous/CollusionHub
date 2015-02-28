@@ -50,7 +50,7 @@ include("inserttodb.php");
           <fieldset class="clearfix">
 
             <div align="center">
-              <p><img src="hacklogo.jpg" alt="" width="347" height="91" align="absmiddle"/><br>
+              <p><img src="../logowithwomen.png" alt="" width="300" height="179" align="absmiddle"/><br>
                 <br>
               </p>
             </div>
