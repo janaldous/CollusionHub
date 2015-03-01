@@ -7,7 +7,7 @@
 <!-- InstanceEndEditable -->
 <style type="text/css">
 body {
-	background-image: url(WebFiles/imeet-london-background.png);
+	background-image: url(collisionhub.webatu.com/imeet-london-background.png);
 }
 </style>
 <!-- InstanceBeginEditable name="head" -->
