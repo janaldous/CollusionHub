@@ -79,8 +79,15 @@ function MM_swapImage() { //v3.0
               <tr>
                 <td width="592"><!-- InstanceBeginEditable name="PublicFeed" -->
                   <div style="width:195px; text-align:center;">
-  <iframe src="http://www.eventbrite.com/countdown-widget?eid=4653432542" frameborder="0" height="479" width="195" marginheight="0" marginwidth="0" scrolling="no" allowtransparency="true"></iframe>
-</div>
+                    <table width="131" border="0">
+                      <tbody>
+      <tr>
+        <td><iframe src="http://www.eventbrite.com/countdown-widget?eid=4653432542" frameborder="0" height="479" width="195" marginheight="0" marginwidth="0" scrolling="no" allowtransparency="true"></iframe></td>
+        <td>&nbsp;</td>
+      </tr>
+    </tbody>
+</table>
+                  </div>
                 <!-- InstanceEndEditable --></td>
               </tr>
               <tr>

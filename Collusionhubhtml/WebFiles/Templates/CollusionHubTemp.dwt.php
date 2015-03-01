@@ -105,8 +105,7 @@ function MM_swapImage() { //v3.0
             </p>
             <form id="form1" name="form1" method="post">
               <input type="text" name="textfield" id="textfield">
-            </form>
-          <p>&nbsp; </p></td>
+            </form></td>
         </tr>
       </tbody>
     </table>
