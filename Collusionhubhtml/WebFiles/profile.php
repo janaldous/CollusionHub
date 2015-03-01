@@ -26,6 +26,8 @@ body {
 body {
 	background-image: url(imeet-london-background.png);
 	background-repeat: repeat;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 18px;
 }
 </style>
 <!-- InstanceBeginEditable name="head" -->
@@ -56,7 +58,7 @@ function MM_swapImage() { //v3.0
 
 </head>
 
-<body onLoad="MM_preloadImages('MenuButtons/Home2.png','MenuButtons/Profile2.png','MenuButtons/tutors2.png','MenuButtons/events2.png','MenuButtons/sharing2.png','MenuButtons/L&amp;F2.png','../MenuButtons/logout2.png','../MenuButtons/addFriendButton2.png','MenuButtons/post2.png')">
+<body onLoad="MM_preloadImages('MenuButtons/Home2.png','MenuButtons/Profile2.png','MenuButtons/tutors2.png','MenuButtons/events2.png','MenuButtons/sharing2.png','MenuButtons/L&amp;F2.png','../MenuButtons/logout2.png','../MenuButtons/addFriendButton2.png')">
 <div>
   <div align="center">
     <table width="899" border="0">
@@ -95,34 +97,7 @@ function MM_swapImage() { //v3.0
           <td width="598"><table width="598" border="0">
             <tbody>
               <tr>
-                <td width="592"><!-- InstanceBeginEditable name="PublicFeed" -->
-                  <table width="714" border="0">
-                    <tbody>
-                      <tr>
-<<<<<<< Updated upstream
-                        <td width="900"><form action = "postlogic.php" id="form1" name="form1" method="post">
-                          <textarea name="post" id="post"></textarea>
-                          <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('postButton','','MenuButtons/post2.png',1)">
-                          </a>
-                        </form>
-                          <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('postButton','','MenuButtons/post2.png',1)">
-                          <form id="form2" name="form2" method="post">
-                            <input name="imageField2" type="image" id="imageField2" src="MenuButtons/post.png" width="93" height="36">
-                          </form>
-                          </a></p></td>
-=======
-                        <td width="900"><form action="postlogic.php">
-Post:<br>
-<input type="text" name="post" value="post">
-<br>
-<input type="submit" value="Submit">
-</form>                          
-<p><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('postButton','','MenuButtons/post2.png',1)"><img src="MenuButtons/post.png" alt="" width="80" height="31" id="postButton"></a></p></td>
->>>>>>> Stashed changes
-                      </tr>
-                      </tbody>
-                </table>
-                <!-- InstanceEndEditable --></td>
+                <td width="592"><!-- InstanceBeginEditable name="PublicFeed" --><img src="ChatterPostStatusBox.png" width="546" height="153" alt=""/><!-- InstanceEndEditable --></td>
               </tr>
               <tr>
                 <td>

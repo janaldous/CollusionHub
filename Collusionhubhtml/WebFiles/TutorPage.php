@@ -9,6 +9,8 @@
 body {
 	background-image: url(imeet-london-background.png);
 	background-repeat: repeat;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 18px;
 }
 </style>
 <!-- InstanceBeginEditable name="head" -->
@@ -78,7 +80,15 @@ function MM_swapImage() { //v3.0
           <td width="598"><table width="598" border="0">
             <tbody>
               <tr>
-                <td width="592"><!-- InstanceBeginEditable name="PublicFeed" --><img src="tutorslist.png" width="500" height="212" alt=""/>
+                <td width="592"><!-- InstanceBeginEditable name="PublicFeed" -->
+                  <label for="textfield2"><br>
+                    <span style="font-size: larger; font-family: Gotham, 'Helvetica Neue', Helvetica, Arial, sans-serif;"><br>
+                    <br>
+                    Course:</span></label>
+                  <input type="text" name="textfield2" id="textfield2">
+                  <br>
+                  <br>
+                  <img src="tutorslist.png" width="500" height="212" alt=""/>
                   <p>&nbsp;</p>
                   <p>&nbsp;</p>
                   <p>&nbsp;</p>

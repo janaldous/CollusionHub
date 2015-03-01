@@ -9,6 +9,8 @@
 body {
 	background-image: url(imeet-london-background.png);
 	background-repeat: repeat;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 18px;
 }
 </style>
 <!-- InstanceBeginEditable name="head" -->
@@ -79,11 +81,9 @@ function MM_swapImage() { //v3.0
             <tbody>
               <tr>
                 <td width="592"><!-- InstanceBeginEditable name="PublicFeed" -->
-                  <p>&nbsp;</p>
-                  <p>&nbsp;</p>
-                  <p>&nbsp;</p>
-                  <p>&nbsp;</p>
-                  <p>&nbsp;</p>
+                  <p><img src="bg_player_profile_default_big.png" width="142" height="159" alt=""/><br>
+                  </p>
+                  <p><img src="Untitled 8.jpg" width="500" height="245" alt=""/></p>
                   <p>&nbsp;</p>
                   <p>&nbsp;</p>
                 <!-- InstanceEndEditable --></td>

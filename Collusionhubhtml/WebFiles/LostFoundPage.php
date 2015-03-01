@@ -12,6 +12,8 @@
 body {
 	background-image: url(imeet-london-background.png);
 	background-repeat: repeat;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 18px;
 }
 </style>
 <!-- InstanceBeginEditable name="head" -->
@@ -82,48 +84,11 @@ function MM_swapImage() { //v3.0
             <tbody>
               <tr>
                 <td width="592"><!-- InstanceBeginEditable name="PublicFeed" -->
-                  <table width="665" border="0">
-                    <tbody>
-                      <tr>
-                        <td width="167">&nbsp;</td>
-                        <td width="162">Item Name:</td>
-                        <td width="322"><form id="form1" name="form1" method="post">
-                          <input type="text" name="textfield2" id="textfield2">
-                        </form></td>
-                      </tr>
-                      <tr>
-                        <td>&nbsp;</td>
-                        <td>Description:</td>
-                        <td><form id="form2" name="form2" method="post">
-                          <input type="text" name="textfield3" id="textfield3">
-                        </form></td>
-                      </tr>
-                      <tr>
-                        <td>&nbsp;</td>
-                        <td>Location Found:</td>
-                        <td><form id="form3" name="form3" method="post">
-                          <input type="text" name="textfield4" id="textfield4">
-                        </form></td>
-                      </tr>
-                      <tr>
-                        <td>&nbsp;</td>
-                        <td>Date Found:</td>
-                        <td><form id="form4" name="form4" method="post">
-                          <input type="date" name="date" id="date">
-                        </form></td>
-                      </tr>
-                      <tr>
-                        <td>&nbsp;</td>
-                        <td>&nbsp;</td>
-                        <td><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('FoundButton','','MenuButtons/FoundIt2.png',1)">
-                          <form id="form5" name="form5" method="post">
-                            <input name="imageField" type="image" id="imageField" src="MenuButtons/FoundIt.png" width="120" height="36">
-                          </form>
-                        </a></p></td>
-                      </tr>
-                    </tbody>
-                  </table>
-                  <p>&nbsp;</p>
+                  <p>
+                    <label for="textfield2" style="font-family: Gotham, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: larger;">Item Search:</label>
+                    <input type="text" name="textfield2" id="textfield2">
+                  </p>
+                  <p><img src="Untitled 10.png" width="500" height="214" alt=""/></p>
                   <p>&nbsp;</p>
                   <p>&nbsp;</p>
                   <p>&nbsp;</p>

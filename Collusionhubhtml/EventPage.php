@@ -9,6 +9,8 @@
 body {
 	background-image: url(WebFiles/imeet-london-background.png);
 	background-repeat: repeat;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 18px;
 }
 </style>
 <!-- InstanceBeginEditable name="head" -->
