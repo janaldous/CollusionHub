@@ -7,7 +7,7 @@
 <!-- InstanceEndEditable -->
 <style type="text/css">
 body {
-	background-image: url(imeet-london-background.png);
+	background-image: url(../imeet-london-background.png);
 }
 </style>
 <!-- InstanceBeginEditable name="head" -->

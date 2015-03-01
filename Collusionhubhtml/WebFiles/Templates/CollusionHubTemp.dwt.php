@@ -7,7 +7,7 @@
 <!-- TemplateEndEditable -->
 <style type="text/css">
 body {
-	background-image: url(../imeet-london-background.png);
+	background-image: url(collisionhub.webatu.com/imeet-london-background.png);
 }
 </style>
 <!-- TemplateBeginEditable name="head" -->
