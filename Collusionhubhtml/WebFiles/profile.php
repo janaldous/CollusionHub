@@ -84,23 +84,30 @@ function MM_swapImage() { //v3.0
     <table width="1000" border="0">
       <tbody>
         <tr>
-          <td width="156"><p><a href="profile.php" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('HomeButton','','MenuButtons/Home2.png',1)"><img src="MenuButtons/Home.png" alt="" width="148" height="52" id="HomeButton"></a></p>
+          <td width="193"><p><a href="profile.php" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('HomeButton','','MenuButtons/Home2.png',1)"><img src="MenuButtons/Home.png" alt="" width="148" height="52" id="HomeButton"></a></p>
           <p><a href="ProfilePage.php" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('ProfileButton','','MenuButtons/Profile2.png',1)"><img src="MenuButtons/Profile.png" alt="" width="148" height="52" id="ProfileButton"></a></p>
           <p><a href="TutorPage.php" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('TutorButton','','MenuButtons/tutors2.png',1)"><img src="MenuButtons/tutors.png" alt="" width="148" height="52" id="TutorButton"></a></p>
           <p><a href="EventPage.php" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('EventButton','','MenuButtons/events2.png',1)"><img src="MenuButtons/events.png" alt="" width="148" height="52" id="EventButton"></a></p>
           <p><a href="SharingIsCaring.php" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('SICButton','','MenuButtons/sharing2.png',1)"><img src="MenuButtons/sharing.png" alt="" width="148" height="52" id="SICButton"></a></p>
           <p><a href="LostFoundPage.php" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('L&amp;FButton','','../MenuButtons/L&amp;F2.png',1)"><img src="MenuButtons/L&F.png" alt="" width="148" height="52" id="L&amp;FButton"></a></p>
           <p><a href="logout.php" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('LogOutButton','','MenuButtons/logout2.png',1)"><img src="MenuButtons/logout.png" alt="" width="148" height="52" id="LogOutButton"></a></p></td>
-          <td width="709"><table width="708" border="0">
+          <td width="598"><table width="598" border="0">
             <tbody>
               <tr>
-                <td width="702"><!-- InstanceBeginEditable name="PublicFeed" -->
+                <td width="592"><!-- InstanceBeginEditable name="PublicFeed" -->
                   <table width="714" border="0">
                     <tbody>
                       <tr>
                         <td width="900"><form action = "postlogic.php" id="form1" name="form1" method="post">
                           <textarea name="post" id="post"></textarea>
-                          </form>                          <p><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('postButton','','MenuButtons/post2.png',1)"><img src="MenuButtons/post.png" alt="" width="80" height="31" id="postButton"></a></p></td>
+                          <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('postButton','','MenuButtons/post2.png',1)">
+                          </a>
+                        </form>
+                          <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('postButton','','MenuButtons/post2.png',1)">
+                          <form id="form2" name="form2" method="post">
+                            <input name="imageField2" type="image" id="imageField2" src="MenuButtons/post.png" width="93" height="36">
+                          </form>
+                          </a></p></td>
                       </tr>
                       </tbody>
                 </table>
@@ -114,7 +121,7 @@ function MM_swapImage() { //v3.0
                   <!-- InstanceEndEditable -->
               </tbody>
           </table></td>
-          <td width="121"><p>
+          <td width="195"><p>
             <noscript>
               </noscript>
           </p>
@@ -130,14 +137,17 @@ function MM_swapImage() { //v3.0
               <script type="text/javascript" src="http://100widgets.com/js_data.php?id=89"></script>
             </p>
             <p>&nbsp;</p>
-            <p><img src="MenuButtons/addFriendButton.png" alt="" width="120" height="31" id="AddFriendButton"></p>
             <p>
+              <input name="imageField" type="image" id="imageField" src="MenuButtons/addFriendButton.png" width="120" height="36">
+            </p>
+            <form id="form1" name="form1" method="post">
               <input type="text" name="textfield" id="textfield">
-          </p></td>
+            </form>
+          <p>&nbsp; </p></td>
         </tr>
       </tbody>
     </table>
-    All right reserved by The A-Team </div>
+    © 2015 All right reserved by The A-Team </div>
 </div>
 </body>
 <!-- InstanceEnd --></html>

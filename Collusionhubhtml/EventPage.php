@@ -67,17 +67,17 @@ function MM_swapImage() { //v3.0
     <table width="1000" border="0">
       <tbody>
         <tr>
-          <td width="156"><p><a href="WebFiles/profile.php" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('HomeButton','','WebFiles/MenuButtons/Home2.png',1)"><img src="WebFiles/MenuButtons/Home.png" alt="" width="148" height="52" id="HomeButton"></a></p>
+          <td width="193"><p><a href="WebFiles/profile.php" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('HomeButton','','WebFiles/MenuButtons/Home2.png',1)"><img src="WebFiles/MenuButtons/Home.png" alt="" width="148" height="52" id="HomeButton"></a></p>
           <p><a href="WebFiles/ProfilePage.php" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('ProfileButton','','WebFiles/MenuButtons/Profile2.png',1)"><img src="WebFiles/MenuButtons/Profile.png" alt="" width="148" height="52" id="ProfileButton"></a></p>
           <p><a href="WebFiles/TutorPage.php" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('TutorButton','','WebFiles/MenuButtons/tutors2.png',1)"><img src="WebFiles/MenuButtons/tutors.png" alt="" width="148" height="52" id="TutorButton"></a></p>
           <p><a href="WebFiles/EventPage.php" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('EventButton','','WebFiles/MenuButtons/events2.png',1)"><img src="WebFiles/MenuButtons/events.png" alt="" width="148" height="52" id="EventButton"></a></p>
           <p><a href="WebFiles/SharingIsCaring.php" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('SICButton','','WebFiles/MenuButtons/sharing2.png',1)"><img src="WebFiles/MenuButtons/sharing.png" alt="" width="148" height="52" id="SICButton"></a></p>
           <p><a href="WebFiles/LostFoundPage.php" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('L&amp;FButton','','../MenuButtons/L&amp;F2.png',1)"><img src="WebFiles/MenuButtons/L&F.png" alt="" width="148" height="52" id="L&amp;FButton"></a></p>
           <p><a href="logout.php" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('LogOutButton','','WebFiles/MenuButtons/logout2.png',1)"><img src="WebFiles/MenuButtons/logout.png" alt="" width="148" height="52" id="LogOutButton"></a></p></td>
-          <td width="709"><table width="708" border="0">
+          <td width="598"><table width="598" border="0">
             <tbody>
               <tr>
-                <td width="702"><!-- InstanceBeginEditable name="PublicFeed" -->
+                <td width="592"><!-- InstanceBeginEditable name="PublicFeed" -->
                   <div style="width:195px; text-align:center;">
   <iframe src="http://www.eventbrite.com/countdown-widget?eid=4653432542" frameborder="0" height="479" width="195" marginheight="0" marginwidth="0" scrolling="no" allowtransparency="true"></iframe>
 </div>
@@ -88,7 +88,7 @@ function MM_swapImage() { //v3.0
                   <!-- InstanceBeginEditable name="PrivateFeed" --><!-- InstanceEndEditable -->
               </tbody>
           </table></td>
-          <td width="121"><p>
+          <td width="195"><p>
             <noscript>
               </noscript>
           </p>
@@ -104,14 +104,17 @@ function MM_swapImage() { //v3.0
               <script type="text/javascript" src="http://100widgets.com/js_data.php?id=89"></script>
             </p>
             <p>&nbsp;</p>
-            <p><img src="WebFiles/MenuButtons/addFriendButton.png" alt="" width="120" height="31" id="AddFriendButton"></p>
             <p>
+              <input name="imageField" type="image" id="imageField" src="WebFiles/MenuButtons/addFriendButton.png" width="120" height="36">
+            </p>
+            <form id="form1" name="form1" method="post">
               <input type="text" name="textfield" id="textfield">
-          </p></td>
+            </form>
+          <p>&nbsp; </p></td>
         </tr>
       </tbody>
     </table>
-    All right reserved by The A-Team </div>
+    © 2015 All right reserved by The A-Team </div>
 </div>
 </body>
 <!-- InstanceEnd --></html>

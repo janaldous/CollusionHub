@@ -61,7 +61,8 @@ header("location: profile.php");
             <p align="center">
             <input id = "name" type="text" name="username" onBlur="if(this.value == '') this.value = 'Username'" onFocus="if(this.value == 'Username') this.value = ''" placeholder></p> <!-- JS because of IE support; better: placeholder="Username" -->
             <p align="center"><input id = "password" type="password"  name="password" onBlur="if(this.value == '') this.value = 'Password'" onFocus="if(this.value == 'Password') this.value = ''" required></p> <!-- JS because of IE support; better: placeholder="Password" -->
-            <p align="center"><input name = "submit" type="submit" value="Login"></p>
+            <p align="center"><input name = "submit" type="submit" value="Login">
+            </p>
             
             
 
@@ -92,11 +93,12 @@ header("location: profile.php");
    });
  }
 </script>
-<button id="signinButton">Sign in with Google</button>
-        
-        
-
-      <p align="center">Not a member? <a href="register.php">Sign up now</a><span class="fontawesome-arrow-right"></span></p>
+<div>
+  <div align="center">
+    <input name="imageField" type="image" id="imageField" src="MenuButtons/sign-in-with-google.png" width="220" height="55">
+  </div>
+</div>
+<p align="center">Not a member? <a href="register.php">Sign up now</a><span class="fontawesome-arrow-right"></span></p>
 
     </div> <!-- end login -->
 
