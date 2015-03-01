@@ -7,7 +7,7 @@
 <!-- InstanceEndEditable -->
 <style type="text/css">
 body {
-	background-image: url(file:///Macintosh%20HD/Users/Shubham/Documents/CollusionHub/Collusionhubhtml/imeet-london-background.png);
+	background-image: url(WebFiles/imeet-london-background.png);
 }
 </style>
 <!-- InstanceBeginEditable name="head" -->
@@ -38,12 +38,13 @@ function MM_swapImage() { //v3.0
 </head>
 
 <body onLoad="MM_preloadImages('WebFiles/MenuButtons/Home2.png','WebFiles/MenuButtons/Profile2.png','WebFiles/MenuButtons/tutors2.png','WebFiles/MenuButtons/events2.png','WebFiles/MenuButtons/sharing2.png','WebFiles/MenuButtons/L&amp;F2.png','../MenuButtons/logout2.png','../MenuButtons/addFriendButton2.png')">
+s
 <div>
   <div align="center">
     <table width="899" border="0">
       <tbody>
         <tr>
-          <td width="758"><img src="file:///Macintosh HD/Users/Shubham/Documents/CollusionHub/Collusionhubhtml/logowithwomen.png" width="250" height="149" alt=""/></td>
+          <td width="758"><img src="WebFiles/logowithwomen.png" width="250" height="149" alt=""/></td>
           <td width="131"><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('AddFriendButton','','WebFiles/MenuButtons/addFriendButton2.png',1)">
             <table width="131" border="0">
               <tbody>
@@ -74,7 +75,7 @@ function MM_swapImage() { //v3.0
           <p><a href="WebFiles/EventPage.php" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('EventButton','','WebFiles/MenuButtons/events2.png',1)"><img src="WebFiles/MenuButtons/events.png" alt="" width="148" height="52" id="EventButton"></a></p>
           <p><a href="WebFiles/SharingIsCaring.php" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('SICButton','','WebFiles/MenuButtons/sharing2.png',1)"><img src="WebFiles/MenuButtons/sharing.png" alt="" width="148" height="52" id="SICButton"></a></p>
           <p><a href="WebFiles/LostFoundPage.php" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('L&amp;FButton','','../MenuButtons/L&amp;F2.png',1)"><img src="WebFiles/MenuButtons/L&F.png" alt="" width="148" height="52" id="L&amp;FButton"></a></p>
-          <p><a href="WebFiles/index.php" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('LogOutButton','','WebFiles/MenuButtons/logout2.png',1)"><img src="WebFiles/MenuButtons/logout.png" alt="" width="148" height="52" id="LogOutButton"></a></p></td>
+          <p><a href="logout.php" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('LogOutButton','','WebFiles/MenuButtons/logout2.png',1)"><img src="WebFiles/MenuButtons/logout.png" alt="" width="148" height="52" id="LogOutButton"></a></p></td>
           <td width="709"><table width="708" border="0">
             <tbody>
               <tr>
