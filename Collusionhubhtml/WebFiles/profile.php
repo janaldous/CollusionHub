@@ -98,6 +98,7 @@ function MM_swapImage() { //v3.0
                   <table width="714" border="0">
                     <tbody>
                       <tr>
+<<<<<<< Updated upstream
                         <td width="900"><form action = "postlogic.php" id="form1" name="form1" method="post">
                           <textarea name="post" id="post"></textarea>
                           <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('postButton','','MenuButtons/post2.png',1)">
@@ -108,6 +109,15 @@ function MM_swapImage() { //v3.0
                             <input name="imageField2" type="image" id="imageField2" src="MenuButtons/post.png" width="93" height="36">
                           </form>
                           </a></p></td>
+=======
+                        <td width="900"><form action="postlogic.php">
+Post:<br>
+<input type="text" name="post" value="post">
+<br>
+<input type="submit" value="Submit">
+</form>                          
+<p><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('postButton','','MenuButtons/post2.png',1)"><img src="MenuButtons/post.png" alt="" width="80" height="31" id="postButton"></a></p></td>
+>>>>>>> Stashed changes
                       </tr>
                       </tbody>
                 </table>
