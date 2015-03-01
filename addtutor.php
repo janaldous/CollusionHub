@@ -13,7 +13,7 @@
 	// Selecting Database
 	$db = mysql_select_db("a1331560_account", $connection)  or die("2");
 	// SQL query to fetch information of registerd users and finds user match.
-	$insert_query = "INSERT INTO `a1331560_account`.`friendtutors` (`username`, `friends`, `tutors`) VALUES ('$username', '$friend', '')";
+	$insert_query = "INSERT INTO `a1331560_account`.`friendtutors` (`username`, `friends`, `tutors`) VALUES ('$username', '', '$tutor')";
 	mysql_query($insert_query, $connection) or die("3");
 	mysql_close($connection); // Closing Connection
 ?>
