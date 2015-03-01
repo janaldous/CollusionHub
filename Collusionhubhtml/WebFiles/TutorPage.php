@@ -7,7 +7,8 @@
 <!-- InstanceEndEditable -->
 <style type="text/css">
 body {
-	background-image: url(collisionhub.webatu.com/imeet-london-background.png);
+	background-image: url(imeet-london-background.png);
+	background-repeat: repeat;
 }
 </style>
 <!-- InstanceBeginEditable name="head" -->
@@ -37,8 +38,7 @@ function MM_swapImage() { //v3.0
 </script>
 </head>
 
-<body onLoad="MM_preloadImages('MenuButtons/Home2.png','MenuButtons/Profile2.png','MenuButtons/tutors2.png','MenuButtons/events2.png','MenuButtons/sharing2.png','MenuButtons/L&amp;F2.png','../MenuButtons/logout2.png','../MenuButtons/addFriendButton2.png')">
-s
+<body onLoad="MM_preloadImages('MenuButtons/Home2.png','MenuButtons/Profile2.png','MenuButtons/tutors2.png','MenuButtons/events2.png','MenuButtons/sharing2.png','MenuButtons/L&amp;F2.png','../MenuButtons/logout2.png','../MenuButtons/addFriendButton2.png','MenuButtons/AddTutor2.png')">
 <div>
   <div align="center">
     <table width="899" border="0">
@@ -49,12 +49,10 @@ s
             <table width="131" border="0">
               <tbody>
                 <tr>
-                  <td><p>&nbsp;</p>
-                  <p>&nbsp;</p>
-                  <p>&nbsp;</p></td>
+                  <td>&nbsp;</td>
                 </tr>
                 <tr>
-                  <td><img src="MenuButtons/addFriendButton.png" alt="" width="130" height="33" id="AddFriendButton"></td>
+                  <td>&nbsp;</td>
                 </tr>
               </tbody>
             </table>
@@ -80,7 +78,11 @@ s
             <tbody>
               <tr>
                 <td width="702"><!-- InstanceBeginEditable name="PublicFeed" -->
-                  <p>TuTorssssss!!!</p>
+                  <p><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('AddTutorButton','','MenuButtons/AddTutor2.png',1)"><img src="MenuButtons/AddTutor.png" alt="" width="130" height="33" id="AddTutorButton"></a></p>
+                  <p>
+                    <input type="text" name="textfield" id="textfield">
+                  </p>
+                  <p>TuTorsss!!!!!!!</p>
                   <p>&nbsp;</p>
                   <p>&nbsp;</p>
                   <p>&nbsp;</p>
@@ -94,7 +96,26 @@ s
                   <!-- InstanceBeginEditable name="PrivateFeed" -->PrivateFeed<!-- InstanceEndEditable -->
               </tbody>
           </table></td>
-          <td width="121"><!-- InstanceBeginEditable name="WidgetPanel" -->WidgetPanel<!-- InstanceEndEditable --></td>
+          <td width="121"><p>
+            <noscript>
+              </noscript>
+          </p>
+            <noscript>
+            <div style="display: inline-block; padding: 2px 4px; margin: 0px 0px 5px; border: 1px solid rgb(204, 204, 204); text-align: center; background-color: rgb(255, 255, 255);">
+              <p><a href="http://localtimes.info/Europe/United_Kingdom/London/" style="text-decoration: none; font-size: 13px; color: rgb(0, 0, 0);"><img src="http://localtimes.info/images/countries/gb.png"="" border=0="" style="border:0;margin:0;padding:0"=""> London</a></p>
+            </div>
+            </noscript>
+            <p>
+              <script type="text/javascript" src="http://localtimes.info/clock.php?continent=Europe&country=United Kingdom&city=London&cp1_Hex=000000&cp2_Hex=FFFFFF&cp3_Hex=000000&fwdt=118&ham=1&hbg=0&hfg=0&sid=0&mon=0&wek=0&wkf=0&sep=0&widget_number=108"></script>
+            </p>
+            <p>
+              <script type="text/javascript" src="http://100widgets.com/js_data.php?id=89"></script>
+            </p>
+            <p>&nbsp;</p>
+            <p><img src="MenuButtons/addFriendButton.png" alt="" width="120" height="31" id="AddFriendButton"></p>
+            <p>
+              <input type="text" name="textfield" id="textfield">
+          </p></td>
         </tr>
       </tbody>
     </table>
