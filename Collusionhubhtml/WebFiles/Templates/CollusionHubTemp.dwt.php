@@ -41,25 +41,14 @@ function MM_swapImage() { //v3.0
 
 </head>
 
-<body onLoad="MM_preloadImages('../MenuButtons/Home2.png','../MenuButtons/Profile2.png','../MenuButtons/tutors2.png','../MenuButtons/events2.png','../MenuButtons/sharing2.png','../MenuButtons/L&amp;F2.png','../MenuButtons/logout2.png','../MenuButtons/addFriendButton2.png')">
+<body onLoad="MM_preloadImages('../MenuButtons/Home2.png','../MenuButtons/Profile2.png','../MenuButtons/tutors2.png','../MenuButtons/events2.png','../MenuButtons/sharing2.png','../MenuButtons/L&amp;F2.png','../MenuButtons/logout2.png')">
 <div>
   <div align="center">
     <table width="899" border="0">
       <tbody>
         <tr>
           <td width="758"><img src="../logowithwomen.png" width="250" height="149" alt=""/></td>
-          <td width="131"><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('AddFriendButton','','../MenuButtons/addFriendButton2.png',1)">
-            <table width="131" border="0">
-              <tbody>
-                <tr>
-                  <td>&nbsp;</td>
-                </tr>
-                <tr>
-                  <td>&nbsp;</td>
-                </tr>
-              </tbody>
-            </table>
-          </a></td>
+          <td width="131">&nbsp;</td>
         </tr>
       </tbody>
     </table>
