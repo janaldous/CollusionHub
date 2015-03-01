@@ -100,13 +100,9 @@ function MM_swapImage() { //v3.0
               <script type="text/javascript" src="http://100widgets.com/js_data.php?id=89"></script>
             </p>
             <p>&nbsp;</p>
+            <p><img src="../MenuButtons/addFriendButton.png" alt="" width="120" height="31" id="AddFriendButton"></p>
             <p>
-                <form action="addfriend.php">
-                    <input type="text" name="textfield" id="textfield">
-                    <input type="image" src="../MenuButtons/addFriendButton.png" alt="" width="120" height="31" id="AddFriendButton" />
-                </form>
-                </p>
-            <p>
+              <input type="text" name="textfield" id="textfield">
           </p></td>
         </tr>
       </tbody>
