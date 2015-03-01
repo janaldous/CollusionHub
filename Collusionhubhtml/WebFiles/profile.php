@@ -1,8 +1,3 @@
-<?php
-include('session.php');
-?>
-
-
 <!doctype html>
 <html><!-- InstanceBegin template="/Templates/CollusionHubTemp.dwt.php" codeOutsideHTMLIsLocked="false" -->
 <head>
@@ -73,7 +68,7 @@ body {
     <table width="1000" border="0">
       <tbody>
         <tr>
-          <td width="156"><p><a href="HomePage.php" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('HomeButton','','MenuButtons/Home2.png',1)"><img src="MenuButtons/Home.png" alt="" width="148" height="52" id="HomeButton"></a></p>
+          <td width="156"><p><a href="profile.php" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('HomeButton','','MenuButtons/Home2.png',1)"><img src="MenuButtons/Home.png" alt="" width="148" height="52" id="HomeButton"></a></p>
           <p><a href="ProfilePage.php" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('ProfileButton','','MenuButtons/Profile2.png',1)"><img src="MenuButtons/Profile.png" alt="" width="148" height="52" id="ProfileButton"></a></p>
           <p><a href="TutorPage.php" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('TutorButton','','MenuButtons/tutors2.png',1)"><img src="MenuButtons/tutors.png" alt="" width="148" height="52" id="TutorButton"></a></p>
           <p><a href="EventPage.php" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('EventButton','','MenuButtons/events2.png',1)"><img src="MenuButtons/events.png" alt="" width="148" height="52" id="EventButton"></a></p>
@@ -84,7 +79,7 @@ body {
             <tbody>
               <tr>
                 <td width="702"><!-- InstanceBeginEditable name="PublicFeed" -->
-                  <p>THIS IS HOME PAGEE!!!</p>
+                  <p>This is Home Page After Login Page!!!</p>
                   <p>&nbsp;</p>
                   <p>&nbsp;</p>
                   <p>&nbsp;</p>

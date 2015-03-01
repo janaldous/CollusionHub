@@ -68,7 +68,7 @@ function MM_swapImage() { //v3.0
     <table width="1000" border="0">
       <tbody>
         <tr>
-          <td width="156"><p><a href="WebFiles/HomePage.php" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('HomeButton','','WebFiles/MenuButtons/Home2.png',1)"><img src="WebFiles/MenuButtons/Home.png" alt="" width="148" height="52" id="HomeButton"></a></p>
+          <td width="156"><p><a href="WebFiles/profile.php" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('HomeButton','','WebFiles/MenuButtons/Home2.png',1)"><img src="WebFiles/MenuButtons/Home.png" alt="" width="148" height="52" id="HomeButton"></a></p>
           <p><a href="WebFiles/ProfilePage.php" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('ProfileButton','','WebFiles/MenuButtons/Profile2.png',1)"><img src="WebFiles/MenuButtons/Profile.png" alt="" width="148" height="52" id="ProfileButton"></a></p>
           <p><a href="WebFiles/TutorPage.php" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('TutorButton','','WebFiles/MenuButtons/tutors2.png',1)"><img src="WebFiles/MenuButtons/tutors.png" alt="" width="148" height="52" id="TutorButton"></a></p>
           <p><a href="WebFiles/EventPage.php" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('EventButton','','WebFiles/MenuButtons/events2.png',1)"><img src="WebFiles/MenuButtons/events.png" alt="" width="148" height="52" id="EventButton"></a></p>

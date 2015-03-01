@@ -69,16 +69,30 @@ header("location: profile.php");
         </form>
         
         
-        <span id="signinButton">
-  <span
-    class="g-signin"
-    data-callback="signinCallback"
-    data-clientid="262323722842-4u43sn7c7c8o4cckvlut4tstl92jl4hq.apps.googleusercontent.com"
-    data-cookiepolicy="single_host_origin"
-    data-requestvisibleactions="http://schema.org/AddAction"
-    data-scope="https://www.googleapis.com/auth/plus.login">
-  </span>
-</span>
+       <meta name="google-signin-clientid" content="262323722842-4u43sn7c7c8o4cckvlut4tstl92jl4hq.apps.googleusercontent.com" />
+<meta name="google-signin-scope" content="https://www.googleapis.com/auth/plus.login" />
+<meta name="google-signin-requestvisibleactions" content="http://schema.org/AddAction" />
+<meta name="google-signin-cookiepolicy" content="single_host_origin" />
+<script src="https://apis.google.com/js/client:platform.js?onload=render" async defer>
+ /* Executed when the APIs finish loading */
+ function render() {
+
+   // Additional params including the callback, the rest of the params will
+   // come from the page-level configuration.
+   
+   var additionalParams = {
+     'callback': signinCallback
+   };
+
+   // Attach a click listener to a button to trigger the flow.
+   var signinButton = document.getElementById('signinButton');
+   signinButton.addEventListener('click', function() {
+     
+	 gapi.auth.signIn(additionalParams); // Will use page level configuration
+   });
+ }
+</script>
+<button id="signinButton">Sign in with Google</button>
         
         
 
