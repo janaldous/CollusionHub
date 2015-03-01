@@ -81,14 +81,25 @@ function MM_swapImage() { //v3.0
             <tbody>
               <tr>
                 <td width="592"><!-- InstanceBeginEditable name="PublicFeed" -->
+<<<<<<< Updated upstream
                   <label for="textfield2"><br>
                     <span style="font-size: larger; font-family: Gotham, 'Helvetica Neue', Helvetica, Arial, sans-serif;"><br>
+=======
+                  <form action = "addtutor.php" id="form2" name="form2" method="post">
+                    <input type="text" name="tutor" id="tutor">
+>>>>>>> Stashed changes
                     <br>
                     Course:</span></label>
                   <input type="text" name="textfield2" id="textfield2">
                   <br>
                   <br>
+<<<<<<< Updated upstream
                   <img src="tutorslist.png" width="500" height="212" alt=""/>
+=======
+                  <form action = "addtutor.php" id="form3" name="form3" method="post">
+                    <input name="submit" type="image" id="submit" src="MenuButtons/AddTutor.png" width="120" height="36">
+              </form>
+>>>>>>> Stashed changes
                   <p>&nbsp;</p>
                   <p>&nbsp;</p>
                   <p>&nbsp;</p>
