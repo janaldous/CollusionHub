@@ -72,7 +72,7 @@ function MM_swapImage() { //v3.0
                 <td width="592"><!-- InstanceBeginEditable name="PublicFeed" -->
                   <label for="textfield2" style="font-family: Gotham, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: larger;"><br>
                     <br>
-                    Text Field:</label>
+                    Filter:</label>
                   <input type="text" name="textfield2" id="textfield2">
                   <p><img src="Untitled 11.png" width="500" height="316" alt=""/></p>
                   <p>&nbsp;</p>
