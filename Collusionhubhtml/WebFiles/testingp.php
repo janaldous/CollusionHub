@@ -5,7 +5,7 @@
 <?php
 
 $connection = mysql_connect('mysql12.000webhost.com', 'a1331560_shubham', 'Increed123'); //The Blank string is the password
-mysql_select_db('hrmwaitrose');
+mysql_select_db('a1331560_account');
 
 $query = "SELECT * FROM students"; //You don't need a ; like you do in SQL
 $result = mysql_query($query);
