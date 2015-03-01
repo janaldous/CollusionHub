@@ -38,7 +38,7 @@ function MM_swapImage() { //v3.0
 </script>
 </head>
 
-<body onLoad="MM_preloadImages('MenuButtons/Home2.png','MenuButtons/Profile2.png','MenuButtons/tutors2.png','MenuButtons/events2.png','MenuButtons/sharing2.png','MenuButtons/L&amp;F2.png','../MenuButtons/logout2.png','../MenuButtons/addFriendButton2.png')">
+<body onLoad="MM_preloadImages('MenuButtons/Home2.png','MenuButtons/Profile2.png','MenuButtons/tutors2.png','MenuButtons/events2.png','MenuButtons/sharing2.png','MenuButtons/L&amp;F2.png','../MenuButtons/logout2.png','../MenuButtons/addFriendButton2.png','MenuButtons/FoundIt2.png')">
 <div>
   <div align="center">
     <table width="899" border="0">
@@ -78,7 +78,44 @@ function MM_swapImage() { //v3.0
             <tbody>
               <tr>
                 <td width="702"><!-- InstanceBeginEditable name="PublicFeed" -->
-                  <p>LOST AND FOUND ITEMSSS!!</p>
+                  <table width="665" border="0">
+                    <tbody>
+                      <tr>
+                        <td width="167">&nbsp;</td>
+                        <td width="162">Item Name:</td>
+                        <td width="322"><form id="form1" name="form1" method="post">
+                          <input type="text" name="textfield2" id="textfield2">
+                        </form></td>
+                      </tr>
+                      <tr>
+                        <td>&nbsp;</td>
+                        <td>Description:</td>
+                        <td><form id="form2" name="form2" method="post">
+                          <input type="text" name="textfield3" id="textfield3">
+                        </form></td>
+                      </tr>
+                      <tr>
+                        <td>&nbsp;</td>
+                        <td>Location Found:</td>
+                        <td><form id="form3" name="form3" method="post">
+                          <input type="text" name="textfield4" id="textfield4">
+                        </form></td>
+                      </tr>
+                      <tr>
+                        <td>&nbsp;</td>
+                        <td>Date Found:</td>
+                        <td><form id="form4" name="form4" method="post">
+                          <input type="date" name="date" id="date">
+                        </form></td>
+                      </tr>
+                      <tr>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td><p><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('FoundButton','','MenuButtons/FoundIt2.png',1)"><img src="MenuButtons/FoundIt.png" alt="" width="120" height="31" id="FoundButton"> </a></p></td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <p>&nbsp;</p>
                   <p>&nbsp;</p>
                   <p>&nbsp;</p>
                   <p>&nbsp;</p>
@@ -88,7 +125,7 @@ function MM_swapImage() { //v3.0
               </tr>
               <tr>
                 <td>
-                  <!-- InstanceBeginEditable name="PrivateFeed" -->PrivateFeed<!-- InstanceEndEditable -->
+                  <!-- InstanceBeginEditable name="PrivateFeed" --><!-- InstanceEndEditable -->
               </tbody>
           </table></td>
           <td width="121"><p>

@@ -89,7 +89,7 @@ function MM_swapImage() { //v3.0
               </tr>
               <tr>
                 <td>
-                  <!-- InstanceBeginEditable name="PrivateFeed" -->PrivateFeed<!-- InstanceEndEditable -->
+                  <!-- InstanceBeginEditable name="PrivateFeed" --><!-- InstanceEndEditable -->
               </tbody>
           </table></td>
           <td width="121"><p>

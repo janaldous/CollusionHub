@@ -78,22 +78,15 @@ function MM_swapImage() { //v3.0
             <tbody>
               <tr>
                 <td width="702"><!-- InstanceBeginEditable name="PublicFeed" -->
-                  <p><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('AddTutorButton','','MenuButtons/AddTutor2.png',1)"><img src="MenuButtons/AddTutor.png" alt="" width="130" height="33" id="AddTutorButton"></a></p>
-                  <p>
+                  <p><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('AddTutorButton','','MenuButtons/AddTutor2.png',1)">    <img src="MenuButtons/AddTutor.png" alt="" width="130" height="33" id="AddTutorButton"></a>
                     <input type="text" name="textfield" id="textfield">
                   </p>
-                  <p>TuTorsss!!!!!!!</p>
-                  <p>&nbsp;</p>
-                  <p>&nbsp;</p>
-                  <p>&nbsp;</p>
-                  <p>&nbsp;</p>
-                  <p>&nbsp;</p>
                   <p>&nbsp;</p>
                 <!-- InstanceEndEditable --></td>
               </tr>
               <tr>
                 <td>
-                  <!-- InstanceBeginEditable name="PrivateFeed" -->PrivateFeed<!-- InstanceEndEditable -->
+                  <!-- InstanceBeginEditable name="PrivateFeed" --><!-- InstanceEndEditable -->
               </tbody>
           </table></td>
           <td width="121"><p>

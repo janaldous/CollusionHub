@@ -87,15 +87,11 @@ function MM_swapImage() { //v3.0
                   <table width="714" border="0">
                     <tbody>
                       <tr>
-                        <td width="900"><textarea name="textarea" id="textarea"></textarea></td>
+                        <td width="900"><form id="form1" name="form1" method="post">
+                          <textarea name="textarea" id="textarea"></textarea>
+                          </form>                          <p><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('postButton','','MenuButtons/post2.png',1)"><img src="MenuButtons/post.png" alt="" width="80" height="31" id="postButton"></a></p></td>
                       </tr>
-                      <tr>
-                        <td><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('postButton','','MenuButtons/post2.png',1)"><img src="MenuButtons/post.png" alt="" width="80" height="31" id="postButton"></a></td>
-                      </tr>
-                      <tr>
-                        <td>&nbsp;</td>
-                      </tr>
-                    </tbody>
+                      </tbody>
                 </table>
                 <!-- InstanceEndEditable --></td>
               </tr>
