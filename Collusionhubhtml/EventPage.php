@@ -78,13 +78,9 @@ function MM_swapImage() { //v3.0
             <tbody>
               <tr>
                 <td width="702"><!-- InstanceBeginEditable name="PublicFeed" -->
-                  <p>Eventsss!!!</p>
-                  <p>&nbsp;</p>
-                  <p>&nbsp;</p>
-                  <p>&nbsp;</p>
-                  <p>&nbsp;</p>
-                  <p>&nbsp;</p>
-                  <p>&nbsp;</p>
+                  <div style="width:195px; text-align:center;">
+  <iframe src="http://www.eventbrite.com/countdown-widget?eid=4653432542" frameborder="0" height="479" width="195" marginheight="0" marginwidth="0" scrolling="no" allowtransparency="true"></iframe>
+</div>
                 <!-- InstanceEndEditable --></td>
               </tr>
               <tr>
