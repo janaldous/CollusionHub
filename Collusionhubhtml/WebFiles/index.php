@@ -49,7 +49,7 @@ header("location: profile.php");
 
     <div id="login">
 
-        <form action="" method="post">
+        <form method="post">
 
           <fieldset class="clearfix">
 

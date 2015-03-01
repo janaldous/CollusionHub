@@ -1,4 +1,10 @@
 <?php
+<<<<<<< Updated upstream
+=======
+echo "shittttt";
+include('session.php');
+?>
+>>>>>>> Stashed changes
 
 include('postlogic.php');
 
