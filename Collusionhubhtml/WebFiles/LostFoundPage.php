@@ -97,6 +97,8 @@ function MM_swapImage() { //v3.0
               </tr>
               <tr>
                 <td>
+
+                  <script type="text/javascript" src="//www.auctionnudge.com/item_build/js/SellerID/ koolkids-toys/siteid/3/theme/grid/MaxEntries/4/page/init/grid_cols/4/grid_width/100%25/show_logo/1/img_size/80"></script><div id="auction-nudge-items" class="auction-nudge"><a href="https://www.auctionnudge.com/your-ebay-items">eBay items updated by Auction Nudge</a></div>
                   <!-- InstanceBeginEditable name="PrivateFeed" --><!-- InstanceEndEditable -->
               </tbody>
           </table></td>
