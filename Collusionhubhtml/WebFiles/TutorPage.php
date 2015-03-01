@@ -36,6 +36,7 @@ function MM_swapImage() { //v3.0
    if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
 }
 </script>
+
 </head>
 
 <body onLoad="MM_preloadImages('MenuButtons/Home2.png','MenuButtons/Profile2.png','MenuButtons/tutors2.png','MenuButtons/events2.png','MenuButtons/sharing2.png','MenuButtons/L&amp;F2.png','../MenuButtons/logout2.png','../MenuButtons/addFriendButton2.png')">
@@ -77,15 +78,7 @@ function MM_swapImage() { //v3.0
           <td width="598"><table width="598" border="0">
             <tbody>
               <tr>
-                <td width="592"><!-- InstanceBeginEditable name="PublicFeed" -->
-                  <form id="form2" name="form2" method="post">
-                    <input type="text" name="textfield2" id="textfield2">
-                    <br>
-                  </form>
-                  <br>
-                  <form id="form3" name="form3" method="post">
-                    <input name="imageField2" type="image" id="imageField2" src="MenuButtons/AddTutor.png" width="120" height="36">
-              </form>
+                <td width="592"><!-- InstanceBeginEditable name="PublicFeed" --><img src="tutorslist.png" width="500" height="212" alt=""/>
                   <p>&nbsp;</p>
                   <p>&nbsp;</p>
                   <p>&nbsp;</p>
@@ -121,8 +114,7 @@ function MM_swapImage() { //v3.0
             </p>
             <form id="form1" name="form1" method="post">
               <input type="text" name="textfield" id="textfield">
-            </form>
-          <p>&nbsp; </p></td>
+            </form></td>
         </tr>
       </tbody>
     </table>

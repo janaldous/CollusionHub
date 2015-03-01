@@ -53,6 +53,7 @@ function MM_swapImage() { //v3.0
    if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
 }
 </script>
+
 </head>
 
 <body onLoad="MM_preloadImages('MenuButtons/Home2.png','MenuButtons/Profile2.png','MenuButtons/tutors2.png','MenuButtons/events2.png','MenuButtons/sharing2.png','MenuButtons/L&amp;F2.png','../MenuButtons/logout2.png','../MenuButtons/addFriendButton2.png','MenuButtons/post2.png')">
@@ -160,8 +161,7 @@ Post:<br>
             </p>
             <form id="form1" name="form1" method="post">
               <input type="text" name="textfield" id="textfield">
-            </form>
-          <p>&nbsp; </p></td>
+            </form></td>
         </tr>
       </tbody>
     </table>

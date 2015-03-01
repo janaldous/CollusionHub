@@ -36,6 +36,7 @@ function MM_swapImage() { //v3.0
    if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
 }
 </script>
+
 </head>
 
 <body onLoad="MM_preloadImages('MenuButtons/Home2.png','MenuButtons/Profile2.png','MenuButtons/tutors2.png','MenuButtons/events2.png','MenuButtons/sharing2.png','MenuButtons/L&amp;F2.png','../MenuButtons/logout2.png','../MenuButtons/addFriendButton2.png')">
@@ -78,7 +79,7 @@ function MM_swapImage() { //v3.0
             <tbody>
               <tr>
                 <td width="592"><!-- InstanceBeginEditable name="PublicFeed" -->
-                  <p>THis is Profile Pageee</p>
+                  <p>&nbsp;</p>
                   <p>&nbsp;</p>
                   <p>&nbsp;</p>
                   <p>&nbsp;</p>
@@ -89,7 +90,7 @@ function MM_swapImage() { //v3.0
               </tr>
               <tr>
                 <td>
-                  <!-- InstanceBeginEditable name="PrivateFeed" -->PrivateFeed<!-- InstanceEndEditable -->
+                  <!-- InstanceBeginEditable name="PrivateFeed" --><!-- InstanceEndEditable -->
               </tbody>
           </table></td>
           <td width="195"><p>
@@ -113,8 +114,7 @@ function MM_swapImage() { //v3.0
             </p>
             <form id="form1" name="form1" method="post">
               <input type="text" name="textfield" id="textfield">
-            </form>
-          <p>&nbsp; </p></td>
+            </form></td>
         </tr>
       </tbody>
     </table>
