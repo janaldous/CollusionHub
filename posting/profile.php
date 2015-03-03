@@ -1,13 +1,25 @@
+<?php
+
+echo "shittttt";
+include('session.php');
+
+
+
+
+
+?>
+
 <!doctype html>
 <html><!-- InstanceBegin template="/Templates/CollusionHubTemp.dwt.php" codeOutsideHTMLIsLocked="false" -->
 <head>
-	<link rel="shortcut icon" href="logowithwomen.png">
-		<title>Home</title>
 <meta charset="UTF-8">
 <!-- InstanceBeginEditable name="doctitle" -->
 <title>Untitled Document</title>
 <style type="text/css">
-@import url("style.css");
+body {
+	background-image: url(imeet-london-background.png);
+	background-repeat: no-repeat;
+}
 </style>
 <!-- InstanceEndEditable -->
 <style type="text/css">
@@ -74,21 +86,22 @@ function MM_swapImage() { //v3.0
           <td width="598"><table width="598" border="0">
             <tbody>
               <tr>
-                <td width="592"><!-- InstanceBeginEditable name="PublicFeed" -->
-                  <p>
-                    <label for="textfield2" style="font-family: Gotham, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: larger;">Item Search:</label>
-                    <input type="text" name="textfield2" id="textfield2">
-                  </p>
-                  <p><img src="Untitled 10.png" width="500" height="214" alt=""/></p>
-                  <p>&nbsp;</p>
-                  <p>&nbsp;</p>
-                  <p>&nbsp;</p>
-                  <p>&nbsp;</p>
-                <!-- InstanceEndEditable --></td>
+                <td width="592"><!-- InstanceBeginEditable name="PublicFeed" --><img src="ChatterPostStatusBox.png" width="546" height="153" alt=""/><!-- InstanceEndEditable --></td>
               </tr>
               <tr>
                 <td>
-                  <!-- InstanceBeginEditable name="PrivateFeed" --><!-- InstanceEndEditable -->
+                  <!-- InstanceBeginEditable name="PrivateFeed" --><script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script><script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+                  <table width="716" border="0">
+                    <tbody>
+                      <tr>
+                        <td width="360"><div align="center"><a class="twitter-timeline" href="https://twitter.com/hacklondonuk" data-widget-id="571732998517948416">Tweets by @hacklondonuk</a></div></td>
+                        <td width="322"><div align="center"><a class="twitter-timeline" href="https://twitter.com/torasian" data-widget-id="571729902773493760">Tweets by @torasian</a> 
+                          <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+                        </div></td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <!-- InstanceEndEditable -->
               </tbody>
           </table></td>
           <td width="195"><p>

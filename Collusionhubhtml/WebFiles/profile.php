@@ -13,6 +13,8 @@ include('session.php');
 <html><!-- InstanceBegin template="/Templates/CollusionHubTemp.dwt.php" codeOutsideHTMLIsLocked="false" -->
 <head>
 <meta charset="UTF-8">
+	<link rel="shortcut icon" href="logowithwomen.png">
+		<title>Home</title>
 <!-- InstanceBeginEditable name="doctitle" -->
 <title>Untitled Document</title>
 <style type="text/css">

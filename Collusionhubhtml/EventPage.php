@@ -1,6 +1,8 @@
 <!doctype html>
 <html><!-- InstanceBegin template="/Templates/CollusionHubTemp.dwt.php" codeOutsideHTMLIsLocked="false" -->
 <head>
+	<link rel="shortcut icon" href="logowithwomen.png">
+		<title>CollusionHub - Events</title>
 <meta charset="UTF-8">
 <!-- InstanceBeginEditable name="doctitle" -->
 <title>Untitled Document</title>

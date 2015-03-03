@@ -9,7 +9,8 @@ include("inserttodb.php");
 <html>
 
 <head>
-
+<link rel="shortcut icon" href="logowithwomen.png">
+		<title>Register</title>
   <meta charset="UTF-8">
 
   <title>CodePen - Login</title>

@@ -12,6 +12,8 @@ header("location: profile.php");
 <html>
 
 <head>
+	<link rel="shortcut icon" href="logowithwomen.png">
+		<title>CollusionHub</title>
 <script src="https://apis.google.com/js/client:platform.js" async defer></script>
 
   <meta charset="UTF-8">
